@@ -17,7 +17,8 @@ const Home = () => {
       </div>
 
       <div className='home__wrapper'>
-        MAIN
+        <div className='home__graph'></div>
+        <div className='home__table'></div>
       </div>
     </div>
   )

@@ -7,7 +7,7 @@
 .login__form__title {
   font-size: 16px;
   font-weight: bold;
-  color: #46119c;
+  color: #41aba4;
 }
 
 .login__form {
@@ -22,22 +22,22 @@
   margin-bottom: 20px;
   font-size: 14px;
   padding: 10px 30px;
-  border: 2px solid #b8b8b8;
+  border: 2px solid #e6e6e6;
   border-radius: 3px;
-  background-color: #b8b8b8;
-  color: #46119c;
+  background-color: #e6e6e6;
+  color: #41aba4;
   font-weight: bold;
   outline: none;
 }
 
 .login__form  input::placeholder {
-  color: #46119c;
+  color: #41aba4;
   font-weight: bold;
 }
 
 .login__form button {
   padding: 10px 30px;
-  background-color: #46119c;
+  background-color: #41aba4;
   color: white;
   border: none;
   border-radius: 3px;

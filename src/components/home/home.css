@@ -24,7 +24,7 @@
 
 .home__navigator__title p:first-child {
   font-weight: bold;
-  color:#46119c;
+  color: grey;
   font-size: 12px;
 }
 
@@ -37,15 +37,17 @@
 
 .home__navigator__title p:last-child span {
   font-size: 16px;
-  color: #23c4a7;
+  color: #41aba4;
   margin-left: 20px;
 }
 
 
 .home__navigator__btn__new {
   color: white;
-  border: 1px solid  rgb(224, 50, 50);
-  background-color: rgb(224, 50, 50);
+  /* border: 1px solid  rgb(224, 50, 50);
+  background-color: rgb(224, 50, 50); */
+  border: 1px solid #41aba4;
+  background-color: #41aba4;
   padding: 5px 20px;
   border-radius: 3px;
   font-size: 12px;
@@ -56,7 +58,7 @@
 }
 
 .home__navigator__btn__logout {
-  color: #46119c;
+  color: grey;
   border: none;
   /* border: 1px solid #46119c; */
   background-color: inherit;
@@ -74,5 +76,21 @@
   height: 80%;
   margin: 10px auto;
   background-color: white;
+  border-radius: 3px;
+  display: flex;
 }
+
+.home__graph {
+  width: 20%;
+  height: 100%;
+  border: 1px solid red;
+}
+
+
+.home__table {
+  width: 80%;
+  height: 100%;
+  border: 1px solid black;
+}
+
 
